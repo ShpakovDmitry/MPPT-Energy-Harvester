@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L components:SolarCell Bat?
+L components:SolarCell Bat1
 U 1 1 5FAAC6D4
 P 2950 1850
-F 0 "Bat?" H 2975 2265 50  0000 C CNN
+F 0 "Bat1" H 2950 2150 50  0000 C CNN
 F 1 "SolarCell" H 2950 1700 50  0000 C CNN
 F 2 "" H 3000 1850 50  0001 C CNN
 F 3 "" H 3000 1850 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 3000 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L components:CurrentSenseResistor R?
+L components:CurrentSenseResistor R1
 U 1 1 5FAAD813
 P 3000 2250
-F 0 "R?" H 3000 2400 50  0000 C CNN
+F 0 "R1" H 3000 2400 50  0000 C CNN
 F 1 "CurrentSenseResistor" H 3000 2100 50  0000 C CNN
 F 2 "" H 3000 2250 50  0001 C CNN
 F 3 "" H 3000 2250 50  0001 C CNN
@@ -51,10 +51,10 @@ Voltage sense
 Text Notes 4150 2250 0    50   ~ 0
 Current sense
 $Comp
-L components:Conn2x1Female X?
+L components:Conn2x1Female X1
 U 1 1 5FABC15C
 P 1850 2000
-F 0 "X?" H 1850 2200 50  0000 C CNN
+F 0 "X1" H 1850 2200 50  0000 C CNN
 F 1 "Conn2x1Female" H 1850 1800 50  0000 C CNN
 F 2 "" H 1850 2000 50  0001 C CNN
 F 3 "" H 1850 2000 50  0001 C CNN
@@ -62,10 +62,10 @@ F 3 "" H 1850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L components:Conn2x1Female X?
+L components:Conn2x1Female X2
 U 1 1 5FABCA7D
 P 4400 1750
-F 0 "X?" H 4172 1796 50  0000 R CNN
+F 0 "X2" H 4172 1796 50  0000 R CNN
 F 1 "Conn2x1Female" H 4172 1705 50  0000 R CNN
 F 2 "" H 4400 1750 50  0001 C CNN
 F 3 "" H 4400 1750 50  0001 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 4400 1750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L components:Conn2x1Female X?
+L components:Conn2x1Female X3
 U 1 1 5FABDE31
 P 4400 2400
-F 0 "X?" H 4172 2446 50  0000 R CNN
+F 0 "X3" H 4172 2446 50  0000 R CNN
 F 1 "Conn2x1Female" H 4172 2355 50  0000 R CNN
 F 2 "" H 4400 2400 50  0001 C CNN
 F 3 "" H 4400 2400 50  0001 C CNN
