@@ -31,6 +31,20 @@ X V 4 -300 -50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor
+#
+DEF Resistor R 0 40 Y Y 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "Resistor" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 150 50 -150 -50 0 0 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SolarCell
 #
 DEF SolarCell Bat 0 0 Y Y 1 F N
