@@ -90,8 +90,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 1700 4100 1650
 Wire Wire Line
-	4100 1650 2700 1650
-Wire Wire Line
 	2700 1650 2700 1850
 Connection ~ 2700 1850
 Wire Wire Line
@@ -114,4 +112,25 @@ Wire Wire Line
 	2150 2050 2150 2200
 Wire Wire Line
 	2150 2200 2700 2200
+$Comp
+L components:Resistor R2
+U 1 1 5FAC51D6
+P 2950 1400
+F 0 "R2" H 2950 1500 50  0000 C CNN
+F 1 "0R" H 2950 1400 50  0000 C CNN
+F 2 "" H 2950 1400 50  0001 C CNN
+F 3 "" H 2950 1400 50  0001 C CNN
+	1    2950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1400 2700 1650
+Connection ~ 2700 1650
+Wire Wire Line
+	2700 1650 4100 1650
+Wire Wire Line
+	3200 1400 3200 1850
+Connection ~ 3200 1850
+Text Notes 2700 1250 0    50   ~ 0
+Bypass resistor
 $EndSCHEMATC
