@@ -16,40 +16,34 @@ $EndDescr
 $Comp
 L components:CurrentSenseResistor R1
 U 1 1 5FAAD813
-P 4400 3300
-F 0 "R1" H 4400 3450 50  0000 C CNN
-F 1 "CurrentSenseResistor" H 4450 3100 50  0000 C CNN
-F 2 "" H 4400 3300 50  0001 C CNN
-F 3 "" H 4400 3300 50  0001 C CNN
-	1    4400 3300
+P 6300 2350
+F 0 "R1" H 6300 2500 50  0000 C CNN
+F 1 "CurrentSenseResistor" H 6300 2600 50  0000 C CNN
+F 2 "" H 6300 2350 50  0001 C CNN
+F 3 "" H 6300 2350 50  0001 C CNN
+	1    6300 2350
 	1    0    0    -1  
 $EndComp
-Text Label 3050 2300 2    50   ~ 0
-Positive(+)
-Text Label 2600 2400 0    50   ~ 0
-Negative(-)
-Text Notes 2000 3650 0    50   ~ 0
-Current sense
 $Comp
 L components:Conn2x1Female X1
 U 1 1 5FABC15C
-P 2250 2350
-F 0 "X1" H 2250 2550 50  0000 C CNN
-F 1 "Conn2x1Female" H 2250 2150 50  0000 C CNN
-F 2 "" H 2250 2350 50  0001 C CNN
-F 3 "" H 2250 2350 50  0001 C CNN
-	1    2250 2350
+P 3250 3250
+F 0 "X1" H 3250 3450 50  0000 C CNN
+F 1 "Conn2x1Female" H 3250 3050 50  0000 C CNN
+F 2 "" H 3250 3250 50  0001 C CNN
+F 3 "" H 3250 3250 50  0001 C CNN
+	1    3250 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L components:Conn2x1Female X3
+L components:Conn2x1Female X2
 U 1 1 5FABDE31
-P 2250 3400
-F 0 "X3" H 2308 3715 50  0000 C CNN
-F 1 "Conn2x1Female" H 2308 3624 50  0000 C CNN
-F 2 "" H 2250 3400 50  0001 C CNN
-F 3 "" H 2250 3400 50  0001 C CNN
-	1    2250 3400
+P 3250 3750
+F 0 "X2" H 3250 3950 50  0000 C CNN
+F 1 "Conn2x1Female" H 3250 3550 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -182,14 +176,12 @@ Wire Wire Line
 	3150 2700 3050 2700
 Wire Wire Line
 	3050 2700 3050 2300
-Connection ~ 3050 2300
 Wire Wire Line
 	5550 2300 5650 2300
 Wire Wire Line
 	5600 2700 5650 2700
 Wire Wire Line
 	5650 2700 5650 2300
-Connection ~ 5650 2300
 Wire Notes Line
 	2950 2500 5800 2500
 Wire Notes Line
@@ -201,25 +193,41 @@ Wire Notes Line
 Text Notes 4150 2850 0    50   ~ 0
 Bypass resistors
 Wire Wire Line
-	6000 2300 6000 3250
+	6000 2300 5650 2300
+Connection ~ 5650 2300
 Wire Wire Line
-	6000 3250 4700 3250
+	6600 2300 7000 2300
 Wire Wire Line
-	5650 2300 6000 2300
+	6000 2400 6000 2600
 Wire Wire Line
-	2550 2300 3050 2300
+	6000 2600 7000 2600
 Wire Wire Line
-	4100 3250 2800 3250
+	6600 2400 7000 2400
 Wire Wire Line
-	2800 3250 2800 2400
+	3050 2300 2750 2300
+Connection ~ 3050 2300
+Text Label 6700 2300 0    50   ~ 0
+PWR(-)
+Text Label 3050 2300 2    50   ~ 0
+PWR(+)
+Text Label 7000 2600 2    50   ~ 0
+Isense(+)
+Text Label 7000 2400 2    50   ~ 0
+Isense(-)
 Wire Wire Line
-	2800 2400 2550 2400
+	3550 3200 3950 3200
 Wire Wire Line
-	4100 3350 2550 3350
+	3550 3300 3950 3300
 Wire Wire Line
-	4700 3350 5000 3350
+	3550 3700 3950 3700
 Wire Wire Line
-	5000 3350 5000 3450
-Wire Wire Line
-	5000 3450 2550 3450
+	3550 3800 3950 3800
+Text Label 3900 3200 2    50   ~ 0
+PWR(+)
+Text Label 3900 3300 2    50   ~ 0
+PWR(-)
+Text Label 3600 3800 0    50   ~ 0
+Isense(-)
+Text Label 3600 3700 0    50   ~ 0
+Isense(+)
 $EndSCHEMATC
