@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L components:SolarCell Bat1
-U 1 1 5FAAC6D4
-P 2950 1850
-F 0 "Bat1" H 2950 2150 50  0000 C CNN
-F 1 "SolarCell" H 2950 1700 50  0000 C CNN
-F 2 "" H 3000 1850 50  0001 C CNN
-F 3 "" H 3000 1850 50  0001 C CNN
-	1    2950 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L components:CurrentSenseResistor R1
 U 1 1 5FAAD813
 P 3000 2250
@@ -35,13 +24,6 @@ F 3 "" H 3000 2250 50  0001 C CNN
 	1    3000 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 1850 3400 1850
-Wire Wire Line
-	3400 1850 3400 2200
-Wire Wire Line
-	3400 2200 3300 2200
-Connection ~ 3400 1850
 Text Label 2650 1850 2    50   ~ 0
 Positive(+)
 Text Label 2650 2200 2    50   ~ 0
@@ -84,53 +66,11 @@ F 3 "" H 4400 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 1850 4100 1800
-Wire Wire Line
-	3400 1850 4100 1850
-Wire Wire Line
-	4100 1700 4100 1650
-Wire Wire Line
-	2700 1650 2700 1850
-Connection ~ 2700 1850
-Wire Wire Line
-	2700 1850 2750 1850
-Wire Wire Line
-	4100 2300 4100 2350
-Wire Wire Line
-	3300 2300 4100 2300
-Wire Wire Line
-	4100 2450 4100 2500
-Wire Wire Line
-	4100 2500 2700 2500
-Wire Wire Line
-	2700 2300 2700 2500
-Wire Wire Line
 	2150 1850 2150 1950
-Wire Wire Line
-	2150 1850 2700 1850
 Wire Wire Line
 	2150 2050 2150 2200
 Wire Wire Line
 	2150 2200 2700 2200
-$Comp
-L components:Resistor R2
-U 1 1 5FAC51D6
-P 2950 1400
-F 0 "R2" H 2950 1500 50  0000 C CNN
-F 1 "0R" H 2950 1400 50  0000 C CNN
-F 2 "" H 2950 1400 50  0001 C CNN
-F 3 "" H 2950 1400 50  0001 C CNN
-	1    2950 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2700 1400 2700 1650
-Connection ~ 2700 1650
-Wire Wire Line
-	2700 1650 4100 1650
-Wire Wire Line
-	3200 1400 3200 1850
-Connection ~ 3200 1850
-Text Notes 2700 1250 0    50   ~ 0
-Bypass resistor
+	2150 1850 2750 1850
 $EndSCHEMATC
