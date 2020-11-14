@@ -163,11 +163,7 @@ Wire Wire Line
 Wire Notes Line
 	2950 2500 5800 2500
 Wire Notes Line
-	5800 2500 5800 2900
-Wire Notes Line
 	5800 2900 2950 2900
-Wire Notes Line
-	2950 2900 2950 2500
 Text Notes 4150 2850 0    50   ~ 0
 Bypass resistors
 Wire Wire Line
@@ -234,12 +230,12 @@ $EndComp
 Wire Wire Line
 	2750 3300 3050 3300
 Wire Wire Line
-	3050 3300 3050 2700
+	3050 3300 3050 3100
 Connection ~ 3050 2700
 Wire Wire Line
 	2750 3400 3700 3400
 Wire Wire Line
-	3700 3400 3700 2700
+	3700 3400 3700 3100
 Wire Wire Line
 	2750 3700 3700 3700
 Wire Wire Line
@@ -248,7 +244,7 @@ Connection ~ 3700 3400
 Wire Wire Line
 	2750 3800 4350 3800
 Wire Wire Line
-	4350 3800 4350 2700
+	4350 3800 4350 3100
 Wire Wire Line
 	2750 4100 4350 4100
 Wire Wire Line
@@ -257,7 +253,7 @@ Connection ~ 4350 3800
 Wire Wire Line
 	2750 4200 5000 4200
 Wire Wire Line
-	5000 4200 5000 2700
+	5000 4200 5000 3100
 Wire Wire Line
 	2750 4500 5000 4500
 Wire Wire Line
@@ -266,7 +262,7 @@ Connection ~ 5000 4200
 Wire Wire Line
 	2750 4600 5650 4600
 Wire Wire Line
-	5650 4600 5650 2700
+	5650 4600 5650 3100
 Connection ~ 5650 2700
 Connection ~ 3050 2300
 Wire Wire Line
@@ -329,4 +325,87 @@ Wire Notes Line
 	2000 3050 2000 6150
 Text Notes 1350 5800 0    50   ~ 0
 Power terminal
+$Comp
+L components:Diode D?
+U 1 1 5FB6E70D
+P 3400 3100
+F 0 "D?" H 3400 3200 50  0000 C CNN
+F 1 "Diode" H 3400 2976 50  0000 C CNN
+F 2 "" H 3350 3100 50  0001 C CNN
+F 3 "" H 3350 3100 50  0001 C CNN
+	1    3400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L components:Diode D?
+U 1 1 5FB701A4
+P 4050 3100
+F 0 "D?" H 4050 3200 50  0000 C CNN
+F 1 "Diode" H 4050 2976 50  0000 C CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+	1    4050 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L components:Diode D?
+U 1 1 5FB70944
+P 4700 3100
+F 0 "D?" H 4700 3200 50  0000 C CNN
+F 1 "Diode" H 4700 2976 50  0000 C CNN
+F 2 "" H 4650 3100 50  0001 C CNN
+F 3 "" H 4650 3100 50  0001 C CNN
+	1    4700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L components:Diode D?
+U 1 1 5FB70E52
+P 5350 3100
+F 0 "D?" H 5350 3200 50  0000 C CNN
+F 1 "Diode" H 5350 2976 50  0000 C CNN
+F 2 "" H 5300 3100 50  0001 C CNN
+F 3 "" H 5300 3100 50  0001 C CNN
+	1    5350 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 3100 3050 3100
+Connection ~ 3050 3100
+Wire Wire Line
+	3050 3100 3050 2700
+Wire Wire Line
+	3550 3100 3700 3100
+Connection ~ 3700 3100
+Wire Wire Line
+	3700 3100 3700 2700
+Wire Wire Line
+	3900 3100 3700 3100
+Wire Wire Line
+	4200 3100 4350 3100
+Connection ~ 4350 3100
+Wire Wire Line
+	4350 3100 4350 2700
+Wire Wire Line
+	4550 3100 4350 3100
+Wire Wire Line
+	4850 3100 5000 3100
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 5000 2700
+Wire Wire Line
+	5200 3100 5000 3100
+Wire Wire Line
+	5500 3100 5650 3100
+Connection ~ 5650 3100
+Wire Wire Line
+	5650 3100 5650 2700
+Wire Notes Line
+	5800 3350 2950 3350
+Wire Notes Line
+	5800 2500 5800 3350
+Wire Notes Line
+	2950 2500 2950 3350
+Text Notes 4150 3300 0    50   ~ 0
+Bypass diodes
 $EndSCHEMATC
