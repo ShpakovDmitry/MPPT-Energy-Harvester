@@ -57,8 +57,8 @@ F 3 "" H 4100 2400 50  0001 C CNN
 	1    4150 2400
 	-1   0    0    1   
 $EndComp
-Text Notes 5950 3550 0    50   ~ 0
-Bypass diodes
+Text Notes 5850 3550 0    50   ~ 0
+Bypass schottky diodes
 Wire Notes Line
 	4750 2750 4750 3600
 Wire Notes Line
