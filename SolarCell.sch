@@ -152,10 +152,6 @@ Text Label 4900 6100 2    50   ~ 0
 PWR(-)
 Text Label 4900 6000 2    50   ~ 0
 PWR(+)
-Wire Wire Line
-	4550 6100 4950 6100
-Wire Wire Line
-	4550 6000 4950 6000
 $Comp
 L components:Conn2x1Female X5
 U 1 1 5FABC15C
@@ -175,10 +171,6 @@ Text Label 4600 5350 0    50   ~ 0
 Isense(+)
 Text Label 4600 5450 0    50   ~ 0
 Isense(-)
-Wire Wire Line
-	4550 5450 4950 5450
-Wire Wire Line
-	4550 5350 4950 5350
 $Comp
 L components:Conn2x1Female X6
 U 1 1 5FABDE31
@@ -202,40 +194,24 @@ Connection ~ 4850 2550
 Connection ~ 7450 2950
 Wire Wire Line
 	7450 4850 7450 3350
-Wire Wire Line
-	4550 4850 7450 4850
 Connection ~ 6800 4450
 Wire Wire Line
 	6800 4750 6800 4450
 Wire Wire Line
-	4550 4750 6800 4750
-Wire Wire Line
 	6800 4450 6800 3350
-Wire Wire Line
-	4550 4450 6800 4450
 Connection ~ 6150 4050
 Wire Wire Line
 	6150 4350 6150 4050
 Wire Wire Line
-	4550 4350 6150 4350
-Wire Wire Line
 	6150 4050 6150 3350
-Wire Wire Line
-	4550 4050 6150 4050
 Connection ~ 5500 3650
 Wire Wire Line
 	5500 3950 5500 3650
 Wire Wire Line
-	4550 3950 5500 3950
-Wire Wire Line
 	5500 3650 5500 3350
-Wire Wire Line
-	4550 3650 5500 3650
 Connection ~ 4850 2950
 Wire Wire Line
 	4850 3550 4850 3350
-Wire Wire Line
-	4550 3550 4850 3550
 $Comp
 L components:Conn2x1Female X4
 U 1 1 5FB49ECE
@@ -450,4 +426,28 @@ F 3 "" H 8100 2600 50  0001 C CNN
 	1    8100 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4400 3550 4850 3550
+Wire Wire Line
+	4400 3650 5500 3650
+Wire Wire Line
+	4400 3950 5500 3950
+Wire Wire Line
+	4400 4050 6150 4050
+Wire Wire Line
+	4400 4350 6150 4350
+Wire Wire Line
+	4400 4450 6800 4450
+Wire Wire Line
+	4400 4750 6800 4750
+Wire Wire Line
+	4400 4850 7450 4850
+Wire Wire Line
+	4400 5350 4950 5350
+Wire Wire Line
+	4400 5450 4950 5450
+Wire Wire Line
+	4400 6000 4950 6000
+Wire Wire Line
+	4400 6100 4950 6100
 $EndSCHEMATC
