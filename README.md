@@ -1,4 +1,5 @@
 # SolarElement
+WIP.
 Solar energy element for low power devices
 
 The purpose is to create standalone solar cell module, which is 
