@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Capacitor
+#
+DEF Capacitor C 0 40 Y Y 1 F N
+F0 "C" 0 100 50 H V C CNN
+F1 "Capacitor" 25 -100 50 H V C CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+DRAW
+P 2 0 0 0 -25 50 -25 -50 N
+P 2 0 0 0 25 50 25 -50 N
+X ~ 1 125 0 100 L 50 50 1 1 P
+X ~ 2 -125 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CurrentSenseResistor
 #
 DEF CurrentSenseResistor R 0 1 Y Y 1 F N
