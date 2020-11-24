@@ -345,8 +345,6 @@ Wire Wire Line
 	4675 1325 5050 1325
 Wire Wire Line
 	4675 1425 5050 1425
-Text Notes 6350 1550 0    50   ~ 0
-Solar cell battery\n
 $Comp
 L components:Resistor R?
 U 1 1 5FC3AA35
@@ -566,4 +564,8 @@ Wire Wire Line
 Connection ~ 10575 800 
 Wire Wire Line
 	9800 775  9550 775 
+Text Notes 6275 1550 0    50   ~ 0
+KXOB25-14X1F\n4 x solar cell array
+Text Notes 5250 1325 0    39   ~ 0
+1 x: Voc = 690mV; Isc = 58.6mA; Pmpp = 30.7mW\n4 x: Voc = 2.760V; Isc = 58.6mA; Pmpp = 122.8mW
 $EndSCHEMATC
