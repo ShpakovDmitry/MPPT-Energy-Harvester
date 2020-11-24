@@ -36,8 +36,8 @@ $Comp
 L components:Capacitor C?
 U 1 1 5FB8C278
 P 9800 2150
-F 0 "C?" V 9650 2300 50  0000 R CNN
-F 1 "1uF" V 9800 2350 50  0000 R CNN
+F 0 "C?" H 9850 2275 50  0000 R CNN
+F 1 "1uF" H 9875 2025 50  0000 R CNN
 F 2 "" H 9775 2150 50  0001 C CNN
 F 3 "" H 9775 2150 50  0001 C CNN
 	1    9800 2150
@@ -568,4 +568,6 @@ Text Notes 6275 1550 0    50   ~ 0
 KXOB25-14X1F\n4 x solar cell array
 Text Notes 5250 1325 0    39   ~ 0
 1 x: Voc = 690mV; Isc = 58.6mA; Pmpp = 30.7mW\n4 x: Voc = 2.760V; Isc = 58.6mA; Pmpp = 122.8mW
+NoConn ~ 8600 2950
+NoConn ~ 8700 2950
 $EndSCHEMATC
