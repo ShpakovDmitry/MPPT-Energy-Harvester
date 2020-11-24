@@ -17,17 +17,6 @@ Text Label 4725 1425 0    50   ~ 0
 PWR(-)
 Text Label 4725 1325 0    50   ~ 0
 PWR(+)
-$Comp
-L components:Conn2x1Female X?
-U 1 1 5FABC15C
-P 4525 1375
-F 0 "X?" H 4525 1525 50  0000 C CNN
-F 1 "PWR terminal" H 4750 1225 50  0000 C CNN
-F 2 "" H 4525 1375 50  0001 C CNN
-F 3 "" H 4525 1375 50  0001 C CNN
-	1    4525 1375
-	1    0    0    -1  
-$EndComp
 Text Label 4775 1000 2    50   ~ 0
 PWR(+)
 $Comp
@@ -105,23 +94,23 @@ $EndComp
 $Comp
 L components:NTC R?
 U 1 1 5FB9F884
-P 7825 3350
-F 0 "R?" V 7871 3222 50  0000 R CNN
-F 1 "NTC 10k b=3380" V 7780 3222 50  0000 R CNN
-F 2 "" H 7825 3350 50  0001 C CNN
-F 3 "" H 7825 3350 50  0001 C CNN
-	1    7825 3350
-	0    -1   -1   0   
+P 7825 3275
+F 0 "R?" V 7825 3225 50  0000 R CNN
+F 1 "NTC 10k b=3380" V 7625 3600 50  0000 R CNN
+F 2 "" H 7825 3275 50  0001 C CNN
+F 3 "" H 7825 3275 50  0001 C CNN
+	1    7825 3275
+	0    1    -1   0   
 $EndComp
 $Comp
 L components:GND D?
 U 1 1 5FBA0117
-P 7825 3800
-F 0 "D?" H 7625 3900 50  0001 C CNN
-F 1 "GND" V 7677 3833 50  0000 C CNN
-F 2 "" H 7825 3800 50  0001 C CNN
-F 3 "" H 7825 3800 50  0001 C CNN
-	1    7825 3800
+P 7825 3625
+F 0 "D?" H 7625 3725 50  0001 C CNN
+F 1 "GND" V 7677 3658 50  0000 C CNN
+F 2 "" H 7825 3625 50  0001 C CNN
+F 3 "" H 7825 3625 50  0001 C CNN
+	1    7825 3625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -180,7 +169,7 @@ Wire Wire Line
 	8400 1775 8400 1950
 Text Label 8400 1725 1    50   ~ 0
 SRC
-Text Label 9050 1775 0    50   ~ 0
+Text Label 8975 1775 0    50   ~ 0
 SRC
 Text Label 9375 2150 0    50   ~ 0
 SYS
@@ -193,63 +182,41 @@ Wire Wire Line
 $Comp
 L components:GND D?
 U 1 1 5FC7ABE4
-P 10150 1650
-F 0 "D?" H 9950 1750 50  0001 C CNN
-F 1 "GND" H 10253 1683 50  0000 L CNN
-F 2 "" H 10150 1650 50  0001 C CNN
-F 3 "" H 10150 1650 50  0001 C CNN
-	1    10150 1650
+P 10425 1475
+F 0 "D?" H 10225 1575 50  0001 C CNN
+F 1 "GND" H 10528 1508 50  0000 L CNN
+F 2 "" H 10425 1475 50  0001 C CNN
+F 3 "" H 10425 1475 50  0001 C CNN
+	1    10425 1475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2750 9950 2750
-Text Label 9725 2750 0    50   ~ 0
+Text Label 10675 800  0    50   ~ 0
 ~INT
-Text Label 10550 925  0    50   ~ 0
-~INT
-Text Label 9500 900  2    50   ~ 0
+Text Label 9750 775  2    50   ~ 0
 SRC
-Wire Wire Line
-	10375 925  10775 925 
-Connection ~ 10375 925 
-Wire Wire Line
-	10375 1050 10375 925 
-Wire Wire Line
-	10225 925  10375 925 
-$Comp
-L components:Resistor R?
-U 1 1 5FC632A8
-P 10375 1225
-F 0 "R?" V 10329 1313 50  0000 L CNN
-F 1 "10M" V 10420 1313 50  0000 L CNN
-F 2 "" H 10375 1225 50  0001 C CNN
-F 3 "" H 10375 1225 50  0001 C CNN
-	1    10375 1225
-	0    1    1    0   
-$EndComp
 $Comp
 L components:Resistor R?
 U 1 1 5FC6398F
-P 9700 900
-F 0 "R?" H 9675 825 50  0000 C CNN
-F 1 "Power resistor" H 9775 975 50  0000 C CNN
-F 2 "" H 9700 900 50  0001 C CNN
-F 3 "" H 9700 900 50  0001 C CNN
-	1    9700 900 
+P 9975 775
+F 0 "R?" H 9950 700 50  0000 C CNN
+F 1 "Power resistor" H 10075 850 50  0000 C CNN
+F 2 "" H 9975 775 50  0001 C CNN
+F 3 "" H 9975 775 50  0001 C CNN
+	1    9975 775 
 	-1   0    0    1   
 $EndComp
 $Comp
 L components:nMOS T?
 U 1 1 5FC6289E
-P 10100 925
-F 0 "T?" H 10100 1050 50  0000 C CNN
-F 1 "nMOS" H 10075 800 50  0000 C CNN
-F 2 "" H 10100 925 50  0001 C CNN
-F 3 "" H 10100 925 50  0001 C CNN
-	1    10100 925 
+P 10375 800
+F 0 "T?" H 10375 925 50  0000 C CNN
+F 1 "nMOS" H 10350 675 50  0000 C CNN
+F 2 "" H 10375 800 50  0001 C CNN
+F 3 "" H 10375 800 50  0001 C CNN
+	1    10375 800 
 	1    0    0    -1  
 $EndComp
-Text Notes 8675 1150 0    100  ~ 0
+Text Notes 8950 1025 0    100  ~ 0
 Source clamp
 Wire Notes Line
 	8575 600  8575 1375
@@ -257,10 +224,8 @@ Wire Notes Line
 	9625 1375 9625 1925
 Wire Notes Line
 	9625 1925 10925 1925
-Text Label 10475 2725 2    50   ~ 0
+Text Label 10625 2700 2    50   ~ 0
 SDA
-Text Label 10500 2775 0    50   ~ 0
-SCL
 Wire Notes Line
 	10925 2525 10200 2525
 Wire Notes Line
@@ -276,56 +241,25 @@ F 3 "" H 10725 2775 100 0001 C CNN
 	1    10775 2775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10675 2725 10300 2725
-Wire Wire Line
-	10675 2775 10300 2775
 $Comp
 L components:GND D?
 U 1 1 5FD1C905
-P 10300 2975
-F 0 "D?" H 10100 3075 50  0001 C CNN
-F 1 "GND" H 10325 3050 50  0000 L CNN
-F 2 "" H 10300 2975 50  0001 C CNN
-F 3 "" H 10300 2975 50  0001 C CNN
-	1    10300 2975
-	1    0    0    -1  
+P 10400 2850
+F 0 "D?" H 10200 2950 50  0001 C CNN
+F 1 "GND" H 10425 2925 50  0000 L CNN
+F 2 "" H 10400 2850 50  0001 C CNN
+F 3 "" H 10400 2850 50  0001 C CNN
+	1    10400 2850
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10675 2825 10300 2825
-Wire Wire Line
-	10300 2825 10300 2875
 Wire Wire Line
 	7825 3000 7825 3050
 Wire Wire Line
 	8150 2750 8150 3050
 Wire Wire Line
 	8150 3050 7825 3050
-Connection ~ 7825 3050
 Wire Wire Line
-	7825 3050 7825 3100
-Wire Wire Line
-	7825 3600 7825 3700
-Wire Wire Line
-	7825 3700 7825 3800
-Connection ~ 7825 3700
-Wire Wire Line
-	9975 900  9875 900 
-Wire Wire Line
-	9525 900  9200 900 
-Wire Wire Line
-	10375 1400 10375 1475
-Wire Wire Line
-	10375 1475 10150 1475
-Wire Wire Line
-	9900 1475 9900 950 
-Wire Wire Line
-	9900 950  9975 950 
-Wire Wire Line
-	10150 1550 10150 1475
-Connection ~ 10150 1475
-Wire Wire Line
-	10150 1475 9900 1475
+	10250 775  10150 775 
 $Comp
 L components:KXOB25-14X1F Bat?
 U 1 1 5FADE769
@@ -443,9 +377,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 750  6600 1000
 Wire Wire Line
-	6600 1000 6900 1000
-Connection ~ 6600 1000
-Wire Wire Line
 	4850 750  4825 750 
 Wire Wire Line
 	4825 750  4825 1000
@@ -527,43 +458,112 @@ Wire Notes Line
 $Comp
 L components:Resistor R?
 U 1 1 5FD3A793
-P 7850 900
-F 0 "R?" H 7850 975 50  0000 C CNN
-F 1 "0R" H 7850 825 50  0000 C CNN
-F 2 "" H 7850 900 50  0001 C CNN
-F 3 "" H 7850 900 50  0001 C CNN
-	1    7850 900 
+P 7850 1025
+F 0 "R?" H 7850 1100 50  0000 C CNN
+F 1 "0R" H 7850 950 50  0000 C CNN
+F 2 "" H 7850 1025 50  0001 C CNN
+F 3 "" H 7850 1025 50  0001 C CNN
+	1    7850 1025
 	1    0    0    -1  
 $EndComp
-Text Label 7625 900  2    50   ~ 0
+Text Label 7625 1025 2    50   ~ 0
 PWR(+)
 Wire Wire Line
-	7675 900  7300 900 
-Text Label 8075 900  0    50   ~ 0
+	7675 1025 7300 1025
+Text Label 8075 1025 0    50   ~ 0
 SRC
 Wire Wire Line
-	8025 900  8275 900 
+	8025 1025 8275 1025
 Wire Notes Line
 	7050 1375 9625 1375
 Wire Wire Line
 	8400 1775 8400 1500
 Connection ~ 8400 1775
-Wire Wire Line
-	9000 1775 9250 1775
 $Comp
 L components:GND D?
 U 1 1 5FD4D811
-P 6900 1375
-F 0 "D?" H 6700 1475 50  0001 C CNN
-F 1 "GND" H 6675 1425 50  0000 L CNN
-F 2 "" H 6900 1375 50  0001 C CNN
-F 3 "" H 6900 1375 50  0001 C CNN
-	1    6900 1375
+P 6975 1000
+F 0 "D?" H 6775 1100 50  0001 C CNN
+F 1 "GND" H 6750 1050 50  0000 L CNN
+F 2 "" H 6975 1000 50  0001 C CNN
+F 3 "" H 6975 1000 50  0001 C CNN
+	1    6975 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7825 3100 7825 3050
+Connection ~ 7825 3050
+Wire Wire Line
+	7825 3450 7825 3525
+$Comp
+L components:PWR_Conn X?
+U 1 1 5FD7C18A
+P 4525 1375
+F 0 "X?" H 4525 1525 50  0000 C CNN
+F 1 "PWR_Conn" H 4775 1250 50  0000 C CNN
+F 2 "" H 4525 1375 50  0001 C CNN
+F 3 "" H 4525 1375 50  0001 C CNN
+	1    4525 1375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 1275 6900 1000
-Connection ~ 6900 1000
+	6600 1000 6875 1000
+Connection ~ 6600 1000
+Text Label 9300 2550 0    50   ~ 0
+SDA
+Text Label 10625 2775 2    50   ~ 0
+SCL
+Text Label 9300 2650 0    50   ~ 0
+SCL
+Text Label 9300 2750 0    50   ~ 0
+~INT
 Wire Wire Line
-	6900 1000 6975 1000
+	9250 2550 9525 2550
+Wire Wire Line
+	9250 2650 9525 2650
+Wire Wire Line
+	9250 2750 9525 2750
+Wire Wire Line
+	10675 2700 10450 2700
+Wire Wire Line
+	10675 2775 10450 2775
+Wire Wire Line
+	10500 2850 10675 2850
+Wire Wire Line
+	8575 1775 8500 1775
+Wire Wire Line
+	8925 1775 9175 1775
+Wire Wire Line
+	10500 800  10575 800 
+Wire Wire Line
+	10250 825  10175 825 
+Wire Wire Line
+	10175 1300 10425 1300
+Wire Wire Line
+	10425 1375 10425 1300
+Connection ~ 10425 1300
+Wire Wire Line
+	10425 1300 10575 1300
+Wire Wire Line
+	10175 825  10175 1300
+Wire Wire Line
+	10575 1300 10575 1225
+Wire Wire Line
+	10575 875  10575 800 
+$Comp
+L components:Resistor R?
+U 1 1 5FC632A8
+P 10575 1050
+F 0 "R?" V 10529 1138 50  0000 L CNN
+F 1 "10M" V 10620 1138 50  0000 L CNN
+F 2 "" H 10575 1050 50  0001 C CNN
+F 3 "" H 10575 1050 50  0001 C CNN
+	1    10575 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10575 800  10850 800 
+Connection ~ 10575 800 
+Wire Wire Line
+	9800 775  9550 775 
 $EndSCHEMATC
