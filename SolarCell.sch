@@ -13,425 +13,23 @@ Comment2 "Shpakov Dmitry"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1250 1575 0    50   ~ 0
-This is for parallel\nconnection of this\nmodules.
-Text Notes 1300 875  0    50   ~ 0
-Blocking diode\nand its bypass.
-Wire Wire Line
-	1350 1125 1350 1275
-Connection ~ 1350 1125
-Wire Wire Line
-	1350 1125 900  1125
-Wire Wire Line
-	1850 1125 1850 1275
-Connection ~ 1850 1125
-Wire Wire Line
-	1850 1125 2300 1125
-Wire Wire Line
-	1350 975  1350 1125
-Wire Wire Line
-	1450 975  1350 975 
-Wire Wire Line
-	1850 975  1850 1125
-Wire Wire Line
-	1750 975  1850 975 
-$Comp
-L components:Resistor R?
-U 1 1 5FB7BED0
-P 1600 1275
-F 0 "R?" H 1600 1375 50  0000 C CNN
-F 1 "0R" H 1600 1275 50  0000 C CNN
-F 2 "" H 1600 1275 50  0001 C CNN
-F 3 "" H 1600 1275 50  0001 C CNN
-	1    1600 1275
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Diode D?
-U 1 1 5FB7B4A0
-P 1600 975
-F 0 "D?" H 1600 1075 50  0000 C CNN
-F 1 "Diode" H 1600 851 50  0001 C CNN
-F 2 "" H 1550 975 50  0001 C CNN
-F 3 "" H 1550 975 50  0001 C CNN
-	1    1600 975 
-	-1   0    0    1   
-$EndComp
-Text Notes 3300 2125 0    50   ~ 0
-Bypass schottky diodes
-Wire Notes Line
-	2200 1325 2200 2175
-Wire Notes Line
-	5050 1325 5050 2175
-Wire Notes Line
-	5050 2175 2200 2175
-Wire Wire Line
-	4900 1925 4900 1525
-Connection ~ 4900 1925
-Wire Wire Line
-	4750 1925 4900 1925
-Wire Wire Line
-	4450 1925 4250 1925
-Wire Wire Line
-	4250 1925 4250 1525
-Connection ~ 4250 1925
-Wire Wire Line
-	4100 1925 4250 1925
-Wire Wire Line
-	3800 1925 3600 1925
-Wire Wire Line
-	3600 1925 3600 1525
-Connection ~ 3600 1925
-Wire Wire Line
-	3450 1925 3600 1925
-Wire Wire Line
-	3150 1925 2950 1925
-Wire Wire Line
-	2950 1925 2950 1525
-Connection ~ 2950 1925
-Wire Wire Line
-	2800 1925 2950 1925
-Wire Wire Line
-	2300 1925 2300 1525
-Connection ~ 2300 1925
-Wire Wire Line
-	2500 1925 2300 1925
-$Comp
-L components:Diode D?
-U 1 1 5FB70E52
-P 4600 1925
-F 0 "D?" H 4600 2025 50  0000 C CNN
-F 1 "Diode" H 4600 1801 50  0001 C CNN
-F 2 "" H 4550 1925 50  0001 C CNN
-F 3 "" H 4550 1925 50  0001 C CNN
-	1    4600 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L components:Diode D?
-U 1 1 5FB70944
-P 3950 1925
-F 0 "D?" H 3950 2025 50  0000 C CNN
-F 1 "Diode" H 3950 1801 50  0001 C CNN
-F 2 "" H 3900 1925 50  0001 C CNN
-F 3 "" H 3900 1925 50  0001 C CNN
-	1    3950 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L components:Diode D?
-U 1 1 5FB701A4
-P 3300 1925
-F 0 "D?" H 3300 2025 50  0000 C CNN
-F 1 "Diode" H 3300 1801 50  0001 C CNN
-F 2 "" H 3250 1925 50  0001 C CNN
-F 3 "" H 3250 1925 50  0001 C CNN
-	1    3300 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L components:Diode D?
-U 1 1 5FB6E70D
-P 2650 1925
-F 0 "D?" H 2650 2025 50  0000 C CNN
-F 1 "Diode" H 2650 1801 50  0001 C CNN
-F 2 "" H 2600 1925 50  0001 C CNN
-F 3 "" H 2600 1925 50  0001 C CNN
-	1    2650 1925
-	-1   0    0    1   
-$EndComp
-Text Notes 600  4625 0    50   ~ 0
-Power terminal
-Wire Notes Line
-	1250 1875 1250 4975
-Wire Notes Line
-	2150 1875 2150 4975
-Wire Notes Line
-	2150 4975 1250 4975
-Text Label 2350 4675 2    50   ~ 0
+Text Label 4725 1425 0    50   ~ 0
 PWR(-)
-Text Label 2350 4575 2    50   ~ 0
+Text Label 4725 1325 0    50   ~ 0
 PWR(+)
 $Comp
-L components:Conn2x1Female X5
+L components:Conn2x1Female X?
 U 1 1 5FABC15C
-P 1700 4625
-F 0 "X5" H 1700 4825 50  0000 C CNN
-F 1 "PWR terminal" H 1700 4425 50  0000 C CNN
-F 2 "" H 1700 4625 50  0001 C CNN
-F 3 "" H 1700 4625 50  0001 C CNN
-	1    1700 4625
+P 4525 1375
+F 0 "X?" H 4525 1525 50  0000 C CNN
+F 1 "PWR terminal" H 4750 1225 50  0000 C CNN
+F 2 "" H 4525 1375 50  0001 C CNN
+F 3 "" H 4525 1375 50  0001 C CNN
+	1    4525 1375
 	1    0    0    -1  
 $EndComp
-Text Notes 600  4075 0    50   ~ 0
-Current sensing\nterminal
-Wire Notes Line
-	2150 4325 1250 4325
-Text Label 2050 3925 0    50   ~ 0
-Isense(+)
-Text Label 2050 4025 0    50   ~ 0
-Isense(-)
-$Comp
-L components:Conn2x1Female X6
-U 1 1 5FABDE31
-P 1700 3975
-F 0 "X6" H 1700 4175 50  0000 C CNN
-F 1 "Current sense" H 1700 3775 50  0000 C CNN
-F 2 "" H 1700 3975 50  0001 C CNN
-F 3 "" H 1700 3975 50  0001 C CNN
-	1    1700 3975
-	1    0    0    -1  
-$EndComp
-Text Notes 600  2825 0    50   ~ 0
-Solar battery\nvoltage sensing\nterminals
-Wire Notes Line
-	2150 3675 1250 3675
-Wire Notes Line
-	1250 1875 2150 1875
-Text Label 1250 1125 2    50   ~ 0
+Text Label 4775 1000 2    50   ~ 0
 PWR(+)
-Connection ~ 2300 1125
-Connection ~ 4900 1525
-Wire Wire Line
-	4900 3425 4900 1925
-Connection ~ 4250 3025
-Wire Wire Line
-	4250 3325 4250 3025
-Wire Wire Line
-	4250 3025 4250 1925
-Connection ~ 3600 2625
-Wire Wire Line
-	3600 2925 3600 2625
-Wire Wire Line
-	3600 2625 3600 1925
-Connection ~ 2950 2225
-Wire Wire Line
-	2950 2525 2950 2225
-Wire Wire Line
-	2950 2225 2950 1925
-Connection ~ 2300 1525
-Wire Wire Line
-	2300 2125 2300 1925
-$Comp
-L components:Conn2x1Female X4
-U 1 1 5FB49ECE
-P 1700 3375
-F 0 "X4" H 1450 3375 50  0000 C CNN
-F 1 "Bat4 voltage sense" H 1700 3575 50  0000 C CNN
-F 2 "" H 1700 3375 50  0001 C CNN
-F 3 "" H 1700 3375 50  0001 C CNN
-	1    1700 3375
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Conn2x1Female X3
-U 1 1 5FB49A35
-P 1700 2975
-F 0 "X3" H 1450 2975 50  0000 C CNN
-F 1 "Bat3 voltage sense" H 1700 3175 50  0000 C CNN
-F 2 "" H 1700 2975 50  0001 C CNN
-F 3 "" H 1700 2975 50  0001 C CNN
-	1    1700 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Conn2x1Female X2
-U 1 1 5FB4951A
-P 1700 2575
-F 0 "X2" H 1450 2575 50  0000 C CNN
-F 1 "Bat2 voltage sense" H 1700 2775 50  0000 C CNN
-F 2 "" H 1700 2575 50  0001 C CNN
-F 3 "" H 1700 2575 50  0001 C CNN
-	1    1700 2575
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Conn2x1Female X1
-U 1 1 5FB4644D
-P 1700 2175
-F 0 "X1" H 1450 2175 50  0000 C CNN
-F 1 "Bat1 voltage sense" H 1700 2375 50  0000 C CNN
-F 2 "" H 1700 2175 50  0001 C CNN
-F 3 "" H 1700 2175 50  0001 C CNN
-	1    1700 2175
-	1    0    0    -1  
-$EndComp
-Text Label 6250 1225 2    50   ~ 0
-Isense(-)
-Text Label 6250 1425 2    50   ~ 0
-Isense(+)
-Text Label 5950 1125 0    50   ~ 0
-PWR(-)
-Wire Wire Line
-	5850 1225 6250 1225
-Wire Wire Line
-	5250 1425 6250 1425
-Wire Wire Line
-	5250 1225 5250 1425
-Connection ~ 4900 1125
-Wire Wire Line
-	5250 1125 4900 1125
-Text Notes 3400 1675 0    50   ~ 0
-Bypass resistors
-Wire Notes Line
-	5050 1725 2200 1725
-Wire Notes Line
-	2200 1325 5050 1325
-Wire Wire Line
-	4900 1525 4900 1125
-Wire Wire Line
-	4800 1125 4900 1125
-Wire Wire Line
-	2300 1525 2300 1125
-Wire Wire Line
-	2400 1125 2300 1125
-Connection ~ 4250 1525
-Wire Wire Line
-	4250 1125 4350 1125
-Connection ~ 4250 1125
-Wire Wire Line
-	4250 1125 4250 1525
-Connection ~ 3600 1525
-Wire Wire Line
-	3600 1125 3700 1125
-Connection ~ 3600 1125
-Wire Wire Line
-	3600 1125 3600 1525
-Connection ~ 2950 1525
-Wire Wire Line
-	2950 1125 3050 1125
-Connection ~ 2950 1125
-Wire Wire Line
-	2950 1125 2950 1525
-$Comp
-L components:Resistor R4
-U 1 1 5FAEBAAC
-P 4600 1525
-F 0 "R4" H 4600 1625 50  0000 C CNN
-F 1 "0R" H 4600 1525 50  0000 C CNN
-F 2 "" H 4600 1525 50  0001 C CNN
-F 3 "" H 4600 1525 50  0001 C CNN
-	1    4600 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Resistor R3
-U 1 1 5FAEAC42
-P 3950 1525
-F 0 "R3" H 3950 1625 50  0000 C CNN
-F 1 "0R" H 3950 1525 50  0000 C CNN
-F 2 "" H 3950 1525 50  0001 C CNN
-F 3 "" H 3950 1525 50  0001 C CNN
-	1    3950 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Resistor R2
-U 1 1 5FAEA1AF
-P 3300 1525
-F 0 "R2" H 3300 1625 50  0000 C CNN
-F 1 "0R" H 3300 1525 50  0000 C CNN
-F 2 "" H 3300 1525 50  0001 C CNN
-F 3 "" H 3300 1525 50  0001 C CNN
-	1    3300 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:Resistor R1
-U 1 1 5FAE943A
-P 2650 1525
-F 0 "R1" H 2650 1625 50  0000 C CNN
-F 1 "0R" H 2650 1525 50  0000 C CNN
-F 2 "" H 2650 1525 50  0001 C CNN
-F 3 "" H 2650 1525 50  0001 C CNN
-	1    2650 1525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 1125 4250 1125
-Wire Wire Line
-	3500 1125 3600 1125
-Wire Wire Line
-	2850 1125 2950 1125
-$Comp
-L components:KXOB25-14X1F Bat4
-U 1 1 5FADE769
-P 4550 1125
-F 0 "Bat4" H 4575 1540 50  0000 C CNN
-F 1 "KXOB25-14X1F" H 4575 1449 50  0000 C CNN
-F 2 "" H 4600 1125 50  0001 C CNN
-F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 4600 1125 50  0001 C CNN
-	1    4550 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:KXOB25-14X1F Bat3
-U 1 1 5FADE030
-P 3900 1125
-F 0 "Bat3" H 3925 1540 50  0000 C CNN
-F 1 "KXOB25-14X1F" H 3925 1449 50  0000 C CNN
-F 2 "" H 3950 1125 50  0001 C CNN
-F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 3950 1125 50  0001 C CNN
-	1    3900 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:KXOB25-14X1F Bat2
-U 1 1 5FADCCF3
-P 3250 1125
-F 0 "Bat2" H 3275 1540 50  0000 C CNN
-F 1 "KXOB25-14X1F" H 3275 1449 50  0000 C CNN
-F 2 "" H 3300 1125 50  0001 C CNN
-F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 3300 1125 50  0001 C CNN
-	1    3250 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:KXOB25-14X1F Bat1
-U 1 1 5FAD83E5
-P 2600 1125
-F 0 "Bat1" H 2625 1540 50  0000 C CNN
-F 1 "KXOB25-14X1F" H 2625 1449 50  0000 C CNN
-F 2 "components:KXOB25-14X1F" H 2650 1125 50  0001 C CNN
-F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 2650 1125 50  0001 C CNN
-	1    2600 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L components:CurrentSenseResistor R5
-U 1 1 5FAAD813
-P 5550 1175
-F 0 "R5" H 5550 1325 50  0000 C CNN
-F 1 "CurrentSenseResistor" H 5550 1425 50  0000 C CNN
-F 2 "" H 5550 1175 50  0001 C CNN
-F 3 "" H 5550 1175 50  0001 C CNN
-	1    5550 1175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2125 2300 2125
-Wire Wire Line
-	1850 2225 2950 2225
-Wire Wire Line
-	1850 2525 2950 2525
-Wire Wire Line
-	1850 2625 3600 2625
-Wire Wire Line
-	1850 2925 3600 2925
-Wire Wire Line
-	1850 3025 4250 3025
-Wire Wire Line
-	1850 3325 4250 3325
-Wire Wire Line
-	1850 3425 4900 3425
-Wire Wire Line
-	1850 3925 2400 3925
-Wire Wire Line
-	1850 4025 2400 4025
-Wire Wire Line
-	1850 4575 2400 4575
-Wire Wire Line
-	1850 4675 2400 4675
 $Comp
 L components:GND D?
 U 1 1 5FB87D42
@@ -445,17 +43,6 @@ F 3 "" H 8800 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 2950 8800 3200
-$Comp
-L components:Battery Bat?
-U 1 1 5FB8AA7B
-P 8925 5475
-F 0 "Bat?" V 8904 5603 50  0000 L CNN
-F 1 "Battery" V 8995 5603 50  0000 L CNN
-F 2 "" H 8975 5475 50  0001 C CNN
-F 3 "" H 8975 5475 50  0001 C CNN
-	1    8925 5475
-	0    1    1    0   
-$EndComp
 $Comp
 L components:Capacitor C?
 U 1 1 5FB8C278
@@ -591,59 +178,14 @@ Wire Wire Line
 	8000 1775 8400 1775
 Wire Wire Line
 	8400 1775 8400 1950
-Wire Wire Line
-	8400 1775 8400 1325
-Connection ~ 8400 1775
-Wire Wire Line
-	9000 1775 9425 1775
-Text Label 8400 1650 1    50   ~ 0
-PWR(+)
-Text Label 9100 1775 0    50   ~ 0
-PWR(+)
+Text Label 8400 1725 1    50   ~ 0
+SRC
+Text Label 9050 1775 0    50   ~ 0
+SRC
 Text Label 9375 2150 0    50   ~ 0
 SYS
-$Comp
-L components:GND D?
-U 1 1 5FC0174F
-P 6575 1125
-F 0 "D?" H 6375 1225 50  0001 C CNN
-F 1 "GND" V 6575 1047 50  0000 R CNN
-F 2 "" H 6575 1125 50  0001 C CNN
-F 3 "" H 6575 1125 50  0001 C CNN
-	1    6575 1125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5850 1125 6475 1125
-Text Notes 8675 4075 0    100  ~ 0
+Text Notes 7250 4100 0    100  ~ 0
 Solar energy harvester\nwith MPPT
-$Comp
-L components:GND D?
-U 1 1 5FC433C1
-P 8925 5950
-F 0 "D?" H 8725 6050 50  0001 C CNN
-F 1 "GND" H 9028 5983 50  0000 L CNN
-F 2 "" H 8925 5950 50  0001 C CNN
-F 3 "" H 8925 5950 50  0001 C CNN
-	1    8925 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8925 5725 8925 5850
-Wire Wire Line
-	8925 5275 8925 4975
-Text Label 8925 5175 1    50   ~ 0
-SYS
-Wire Notes Line
-	9650 4825 9650 6100
-Wire Notes Line
-	9650 6100 8750 6100
-Wire Notes Line
-	8750 6100 8750 4825
-Wire Notes Line
-	8750 4825 9650 4825
-Text Notes 9050 5075 0    50   ~ 0
-Energy storing\naccumulator
 Wire Wire Line
 	9925 2150 10125 2150
 Wire Wire Line
@@ -663,18 +205,10 @@ Wire Wire Line
 	9250 2750 9950 2750
 Text Label 9725 2750 0    50   ~ 0
 ~INT
-Wire Notes Line
-	10925 600  10925 4200
-Wire Notes Line
-	10925 4200 7050 4200
-Wire Notes Line
-	7050 4200 7050 600 
-Wire Notes Line
-	7050 600  10925 600 
 Text Label 10550 925  0    50   ~ 0
 ~INT
 Text Label 9500 900  2    50   ~ 0
-PWR(+)
+SRC
 Wire Wire Line
 	10375 925  10775 925 
 Connection ~ 10375 925 
@@ -720,51 +254,47 @@ Source clamp
 Wire Notes Line
 	8575 600  8575 1375
 Wire Notes Line
-	8575 1375 9625 1375
-Wire Notes Line
 	9625 1375 9625 1925
 Wire Notes Line
 	9625 1925 10925 1925
-Text Label 10475 2700 2    50   ~ 0
+Text Label 10475 2725 2    50   ~ 0
 SDA
-Text Label 10500 2750 0    50   ~ 0
+Text Label 10500 2775 0    50   ~ 0
 SCL
 Wire Notes Line
-	10900 2500 10175 2500
+	10925 2525 10200 2525
 Wire Notes Line
-	10175 2500 10175 3025
-Wire Notes Line
-	10175 3025 10925 3025
+	10175 3050 10925 3050
 $Comp
 L components:conn3x1 X?
 U 1 1 5FD0A6F1
-P 10775 2750
-F 0 "X?" H 10725 2925 100 0000 L CNN
-F 1 "I2C bus" H 10600 2575 50  0000 L CNN
-F 2 "" H 10725 2750 100 0001 C CNN
-F 3 "" H 10725 2750 100 0001 C CNN
-	1    10775 2750
+P 10775 2775
+F 0 "X?" H 10725 2950 100 0000 L CNN
+F 1 "I2C bus" H 10600 2600 50  0000 L CNN
+F 2 "" H 10725 2775 100 0001 C CNN
+F 3 "" H 10725 2775 100 0001 C CNN
+	1    10775 2775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10675 2700 10300 2700
+	10675 2725 10300 2725
 Wire Wire Line
-	10675 2750 10300 2750
+	10675 2775 10300 2775
 $Comp
 L components:GND D?
 U 1 1 5FD1C905
-P 10300 2950
-F 0 "D?" H 10100 3050 50  0001 C CNN
-F 1 "GND" H 10325 3025 50  0000 L CNN
-F 2 "" H 10300 2950 50  0001 C CNN
-F 3 "" H 10300 2950 50  0001 C CNN
-	1    10300 2950
+P 10300 2975
+F 0 "D?" H 10100 3075 50  0001 C CNN
+F 1 "GND" H 10325 3050 50  0000 L CNN
+F 2 "" H 10300 2975 50  0001 C CNN
+F 3 "" H 10300 2975 50  0001 C CNN
+	1    10300 2975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10675 2800 10300 2800
+	10675 2825 10300 2825
 Wire Wire Line
-	10300 2800 10300 2850
+	10300 2825 10300 2875
 Wire Wire Line
 	7825 3000 7825 3050
 Wire Wire Line
@@ -796,24 +326,244 @@ Wire Wire Line
 Connection ~ 10150 1475
 Wire Wire Line
 	10150 1475 9900 1475
+$Comp
+L components:KXOB25-14X1F Bat?
+U 1 1 5FADE769
+P 6375 1000
+F 0 "Bat?" H 6375 900 50  0000 C CNN
+F 1 "KXOB25-14X1F" H 6400 1324 50  0001 C CNN
+F 2 "components:KXOB25-14X1F" H 6425 1000 50  0001 C CNN
+F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 6425 1000 50  0001 C CNN
+	1    6375 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:Resistor R?
+U 1 1 5FAEBAAC
+P 6375 750
+F 0 "R?" H 6375 675 50  0000 C CNN
+F 1 "NL" H 6375 825 50  0000 C CNN
+F 2 "" H 6375 750 50  0001 C CNN
+F 3 "" H 6375 750 50  0001 C CNN
+	1    6375 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:KXOB25-14X1F Bat?
+U 1 1 5FC366E3
+P 5925 1000
+F 0 "Bat?" H 5925 900 50  0000 C CNN
+F 1 "KXOB25-14X1F" H 5950 1324 50  0001 C CNN
+F 2 "components:KXOB25-14X1F" H 5975 1000 50  0001 C CNN
+F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 5975 1000 50  0001 C CNN
+	1    5925 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:Resistor R?
+U 1 1 5FC366E9
+P 5925 750
+F 0 "R?" H 5925 675 50  0000 C CNN
+F 1 "NL" H 5925 825 50  0000 C CNN
+F 2 "" H 5925 750 50  0001 C CNN
+F 3 "" H 5925 750 50  0001 C CNN
+	1    5925 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:KXOB25-14X1F Bat?
+U 1 1 5FC3AA1D
+P 5475 1000
+F 0 "Bat?" H 5475 900 50  0000 C CNN
+F 1 "KXOB25-14X1F" H 5500 1324 50  0001 C CNN
+F 2 "components:KXOB25-14X1F" H 5525 1000 50  0001 C CNN
+F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 5525 1000 50  0001 C CNN
+	1    5475 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:Resistor R?
+U 1 1 5FC3AA23
+P 5475 750
+F 0 "R?" H 5475 675 50  0000 C CNN
+F 1 "NL" H 5475 825 50  0000 C CNN
+F 2 "" H 5475 750 50  0001 C CNN
+F 3 "" H 5475 750 50  0001 C CNN
+	1    5475 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:KXOB25-14X1F Bat?
+U 1 1 5FC3AA2F
+P 5025 1000
+F 0 "Bat?" H 5025 900 50  0000 C CNN
+F 1 "KXOB25-14X1F" H 5050 1324 50  0001 C CNN
+F 2 "components:KXOB25-14X1F" H 5075 1000 50  0001 C CNN
+F 3 "https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf" H 5075 1000 50  0001 C CNN
+	1    5025 1000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4775 1525 4900 1525
+	4875 1000 4825 1000
+Text Label 6650 1000 0    50   ~ 0
+PWR(-)
 Wire Wire Line
-	4250 1525 4425 1525
+	4675 1325 5050 1325
 Wire Wire Line
-	4125 1525 4250 1525
+	4675 1425 5050 1425
+Text Notes 6350 1550 0    50   ~ 0
+Solar cell battery\n
+$Comp
+L components:Resistor R?
+U 1 1 5FC3AA35
+P 5025 750
+F 0 "R?" H 5025 675 50  0000 C CNN
+F 1 "NL" H 5025 825 50  0000 C CNN
+F 2 "" H 5025 750 50  0001 C CNN
+F 3 "" H 5025 750 50  0001 C CNN
+	1    5025 750 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3600 1525 3775 1525
+	5200 750  5250 750 
 Wire Wire Line
-	3475 1525 3600 1525
+	5175 1000 5250 1000
 Wire Wire Line
-	2950 1525 3125 1525
+	5650 750  5700 750 
 Wire Wire Line
-	2825 1525 2950 1525
+	5625 1000 5700 1000
 Wire Wire Line
-	2300 1525 2475 1525
+	6100 750  6150 750 
 Wire Wire Line
-	1775 1275 1850 1275
+	6075 1000 6150 1000
 Wire Wire Line
-	1425 1275 1350 1275
+	6525 1000 6600 1000
+Wire Wire Line
+	6550 750  6600 750 
+Wire Wire Line
+	6600 750  6600 1000
+Wire Wire Line
+	6600 1000 6900 1000
+Connection ~ 6600 1000
+Wire Wire Line
+	4850 750  4825 750 
+Wire Wire Line
+	4825 750  4825 1000
+Wire Wire Line
+	4825 1000 4450 1000
+Connection ~ 4825 1000
+Wire Wire Line
+	5250 750  5250 1000
+Connection ~ 5250 750 
+Wire Wire Line
+	5250 750  5300 750 
+Connection ~ 5250 1000
+Wire Wire Line
+	5250 1000 5325 1000
+Wire Wire Line
+	5700 750  5700 1000
+Connection ~ 5700 750 
+Wire Wire Line
+	5700 750  5750 750 
+Connection ~ 5700 1000
+Wire Wire Line
+	5700 1000 5775 1000
+Wire Wire Line
+	6150 750  6150 1000
+Connection ~ 6150 750 
+Wire Wire Line
+	6150 750  6200 750 
+Connection ~ 6150 1000
+Wire Wire Line
+	6150 1000 6225 1000
+Wire Notes Line
+	4400 1575 4400 600 
+Wire Notes Line
+	5100 1575 5100 1175
+Wire Notes Line
+	5100 1175 4400 1175
+Wire Notes Line
+	4400 600  10925 600 
+Wire Notes Line
+	7050 1575 4400 1575
+Wire Notes Line
+	7050 600  7050 4200
+Text Notes 10350 3225 0    50   ~ 0
+Energy storing\naccumulator
+Text Label 10300 3350 1    50   ~ 0
+SYS
+Wire Wire Line
+	10300 3450 10300 3150
+Wire Wire Line
+	10300 3900 10300 4025
+$Comp
+L components:GND D?
+U 1 1 5FC433C1
+P 10300 4125
+F 0 "D?" H 10100 4225 50  0001 C CNN
+F 1 "GND" H 10403 4158 50  0000 L CNN
+F 2 "" H 10300 4125 50  0001 C CNN
+F 3 "" H 10300 4125 50  0001 C CNN
+	1    10300 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L components:Battery Bat?
+U 1 1 5FB8AA7B
+P 10300 3650
+F 0 "Bat?" V 10279 3778 50  0000 L CNN
+F 1 "Battery" V 10370 3778 50  0000 L CNN
+F 2 "" H 10350 3650 50  0001 C CNN
+F 3 "" H 10350 3650 50  0001 C CNN
+	1    10300 3650
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	10925 600  10925 4200
+Wire Notes Line
+	7050 4200 10925 4200
+Wire Notes Line
+	10175 2525 10175 4200
+$Comp
+L components:Resistor R?
+U 1 1 5FD3A793
+P 7850 900
+F 0 "R?" H 7850 975 50  0000 C CNN
+F 1 "0R" H 7850 825 50  0000 C CNN
+F 2 "" H 7850 900 50  0001 C CNN
+F 3 "" H 7850 900 50  0001 C CNN
+	1    7850 900 
+	1    0    0    -1  
+$EndComp
+Text Label 7625 900  2    50   ~ 0
+PWR(+)
+Wire Wire Line
+	7675 900  7300 900 
+Text Label 8075 900  0    50   ~ 0
+SRC
+Wire Wire Line
+	8025 900  8275 900 
+Wire Notes Line
+	7050 1375 9625 1375
+Wire Wire Line
+	8400 1775 8400 1500
+Connection ~ 8400 1775
+Wire Wire Line
+	9000 1775 9250 1775
+$Comp
+L components:GND D?
+U 1 1 5FD4D811
+P 6900 1375
+F 0 "D?" H 6700 1475 50  0001 C CNN
+F 1 "GND" H 6675 1425 50  0000 L CNN
+F 2 "" H 6900 1375 50  0001 C CNN
+F 3 "" H 6900 1375 50  0001 C CNN
+	1    6900 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1275 6900 1000
+Connection ~ 6900 1000
+Wire Wire Line
+	6900 1000 6975 1000
 $EndSCHEMATC
