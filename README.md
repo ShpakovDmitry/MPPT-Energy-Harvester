@@ -9,4 +9,4 @@ project.
 
 ###### Schematics
 
-![schematics](SolarCellSchematics.pdf)
+![schematics](pdf/SolarCellSchematics.pdf)
