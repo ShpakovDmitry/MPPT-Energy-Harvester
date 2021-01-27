@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP KXOB25-14X1F
-D Monocrystalline solar cell. Voc = 690mV; Isc = 58.6mA; Pmpp = 30.7mW
-K solar cell
-F https://waf-e.dubudisk.com/anysolar.dubuplus.com/anonymous/O18AjDR/DubuDisk/public/KXOB25-14X1F%20DATA%20SHEET%20202007.pdf
-$ENDCMP
-#
-#End Doc Library
