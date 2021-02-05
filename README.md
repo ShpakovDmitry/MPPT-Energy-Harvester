@@ -9,4 +9,4 @@ project.
 
 ###### Schematics
 
-![schematics](hardware/Project Outputs for SolMPPT/schematic.PDF)
+![schematics](hardware/Project%20Outputs%20for%20SolMPPT/schematic.PDF)
