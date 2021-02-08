@@ -9,4 +9,4 @@ project.
 
 ###### Schematics
 
-![schematics](pdf/SolarCellSchematics.pdf)
+![schematics](hardware/Project%20Outputs%20for%20SolMPPT/schematic.PDF)
