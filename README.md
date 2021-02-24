@@ -25,3 +25,9 @@ project.
 ###### BOM
 
 ![BOM](hardware/Project%20Outputs%20for%20SolMPPT/BOM/Bill%20of%20Materials-SolMPPT.pdf)
+
+###### Top view
+![top\_view](/hardware/Images/Top3D.png)
+
+###### Bottom view
+![bottom\_view](/hardware/Images/Bottom3D.png)
