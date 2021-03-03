@@ -18,8 +18,9 @@ PCB:
 
 ![BOM](Project%20Outputs%20for%20SolMPPT/BOM/Bill%20of%20Materials-SolMPPT.pdf)
 
-###### Top view
-![top\_view](Images/Top3D.PNG)
+###### View
+Rendered PCB view
+![Rendered view](Images/Top_Bottom_Rendered.png)
 
-###### Bottom view
-![bottom\_view](Images/Bottom3D.png)
+Fabricated PCB view
+![Fabricated view](Images/Top_Bottom_Fabricated.png)
