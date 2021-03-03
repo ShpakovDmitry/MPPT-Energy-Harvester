@@ -20,4 +20,5 @@ project.
 
 ###### Revisions
 ![Revision 0.0.1](hardware/rev_0_0_1/README.md)
+
 ![Revision 0.0.2](hardware/rev_0_0_2/README.md)
