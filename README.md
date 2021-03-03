@@ -18,16 +18,6 @@ The purpose is to create standalone solar cell module, which is
 ready for measurements and testing. In future in may become a part of larger
 project.
 
-###### Schematics
-
-![schematics](hardware/Project%20Outputs%20for%20SolMPPT/schematic.PDF)
-
-###### BOM
-
-![BOM](hardware/Project%20Outputs%20for%20SolMPPT/BOM/Bill%20of%20Materials-SolMPPT.pdf)
-
-###### Top view
-![top\_view](/hardware/Images/Top3D.PNG)
-
-###### Bottom view
-![bottom\_view](/hardware/Images/Bottom3D.png)
+###### Revisions
+![Revision 0.0.1](hardware/rev_0_0_1/README.md)
+![Revision 0.0.2](hardware/rev_0_0_2/README.md)
