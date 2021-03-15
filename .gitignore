@@ -5,3 +5,5 @@ History
 *.PcbDocPreview
 Project Logs for SolMPPT
 *Status Report*
+*.drc
+*.html
