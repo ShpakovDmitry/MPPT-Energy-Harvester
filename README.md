@@ -11,6 +11,6 @@ Is configurable for a variety of setups in easy way - by simply using solderbrid
 * selectable output voltage
 * configurable to use with Li-ion, LiFePO4, NiMH and Supercapacitor(with/without balance) energy storages
 * status pins
+* 24x24 mm size
+![fabricated](/hardware/rev_0_0_2/Images/TopBottomFabricated.jpg)
 
-![top](/hardware/rev_0_0_2/Images/IMG_7466.jpg)
-![bottom](/hardware/rev_0_0_2/Images/IMG_7469.jpg)
