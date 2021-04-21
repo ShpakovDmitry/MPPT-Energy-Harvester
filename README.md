@@ -1,4 +1,4 @@
-Project status: `revision:0.0.2 stage:testing`
+`revision:0.0.2 stage:testing`
 #### Description
 Solar energy harvester with MPPT controller for low power devices.\
 Is configurable for a variety of setups in easy way - by simply using solderbridges on PCB.\
